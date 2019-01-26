@@ -3,6 +3,7 @@
 html {
     font-size: 62.5%;
 }
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -14,11 +15,11 @@ body {
 }
 
 ul {
-    list-style:none;
+    list-style: none;
 }
 
 #nav {
-    background: #FF6F61;
+    /*background-color: white;*/
 }
 
 #nav ul {
@@ -34,7 +35,7 @@ ul {
     position: relative;
     display: block;
     text-decoration: none;
-    color: white;
+    color: #FF6F61;
     outline: 0;
 }
 
@@ -65,7 +66,7 @@ ul {
 }
 
 .header {
-    padding:100px 30px 100px;
+    padding: 100px 30px 100px;
     background-color: white;
     color: #FFB5AD;
 }
@@ -80,8 +81,8 @@ ul {
 }
 
 .button {
-    display:inline-block;
-    padding:20px;
+    display: inline-block;
+    padding: 20px;
     border-radius: 4px;
     background-color: #FFB5AD;
     color: #7F3730;
@@ -108,7 +109,7 @@ ul {
     margin: 30px 0 15px;
     letter-spacing: 2px;
     font-size: 4rem;
-    color: #FF6F61;
+    color: #7F3730;
 }
 
 .about-title {
@@ -122,7 +123,7 @@ ul {
     line-height: 2;
 }
 
-.about .about-text a{
+.about .about-text a {
     color: #FF6F61;
 }
 
@@ -131,7 +132,7 @@ ul {
 }
 
 .link-box {
-    margin: 40px 100px;
+    margin: 40px auto;
     line-height: 2;
 }
 
@@ -177,6 +178,12 @@ ul {
         padding-top: 60px;
     }
 
+    .logo {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
     .site-title {
         margin-top: 35px;
         font-size: 5rem;
@@ -205,7 +212,7 @@ ul {
         margin: 10px 30px;
         border: 3px solid;
         border-radius: 50%;
-        color: #FF6F61;
+        color: #7F3730;
         font-size: 2.5rem;
         line-height: 40px;
     }
@@ -233,6 +240,12 @@ ul {
         font-size: 2.5rem;
     }
 
+    .logo {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
     .about-text {
         margin: 20px auto;
         line-height: 1.8;
@@ -248,7 +261,7 @@ ul {
         margin: 10px 30px;
         border: 3px solid;
         border-radius: 50%;
-        color: #FF6F61;
+        color: #7F3730;
         font-size: 2.5rem;
         line-height: 40px;
     }
