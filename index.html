@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
     <link rel="icon" type="image/png" href="images/icon.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/306558d716.css">
+    <link rel="stylesheet" href="assets/normalize.css">
     <link rel="stylesheet" href="assets/main.css">
     <meta property="og:title" content="Groupie">
     <meta property="og:description" content="Stream Information for comedian's groupie">
@@ -18,16 +19,24 @@
     <meta name="twitter:site" content="@GroupieUniverse">
 </head>
 <body>
-<header class="header">
-    <img class="logo" src="images/logo.png" alt="Groupie" title="Groupie">
-    <div class="site-description">グルーピー</div>
+<nav id="nav">
+    <ul class="container">
+        <li><a href="#top">Groupie</a></li>
+        <li><a href="#">|</a></li>
+        <li><a href="#about">What is?</a></li>
+        <li><a href="#link">Link</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+</nav>
+<header class="header light-pattern" id="top">
+    <img class="logo" src="images/logo-with-illust.png" alt="Groupie" title="Groupie">
 </header>
-<section class="about light-pattern">
+<section class="about dark-pattern" id="about">
     <h2 class="heading">What's "Groupie"?</h2>
     <p class="about-text">Groupieはお笑い芸人のファンのためのおっかけサービスです。様々な場所に散らばっている芸人さんの出演情報などをまとめて配信します。</p>
     <p class="about-text">取得するデータ元は、「テレビ番組表」「チケットよしもと」「吉本のもつ各劇場のTwitterアカウント」です（今後拡大予定）</p>
 </section>
-<section class="link dark-pattern">
+<section class="link light-pattern" id="link">
     <h2 class="heading">Link</h2>
     <div class="link-box">
         <a href="https://github.com/okohs/groupie" class="button">Groupie (GitHubリポジトリ)</a>
@@ -38,7 +47,7 @@
         <p class="link-description">（開発中）Groupieを使って取得した、お笑い芸人「ゆにばーす」の情報です。</p>
     </div>
 </section>
-<section class="contact light-pattern" id="contact">
+<section class="contact dark-pattern" id="contact">
     <h2 class="heading">Contact developer</h2>
     <div class="contact-wrapper">
         <div class="contact-box">
@@ -47,6 +56,6 @@
         </div>
     </div>
 </section>
-<footer class="dark-pattern">©︎okohs | 2019</footer>
+<footer class="footer">©︎okohs | 2019</footer>
 </body>
 </html>

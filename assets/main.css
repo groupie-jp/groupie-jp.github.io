@@ -17,24 +17,61 @@ ul {
     list-style:none;
 }
 
+#nav {
+    background: #FF6F61;
+}
+
+#nav ul {
+    margin: 0 auto;
+}
+
+#nav li {
+    display: inline-block;
+    margin: 5px;
+}
+
+#nav a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: white;
+    outline: 0;
+}
+
+#nav a:hover {
+    color: white;
+}
+
+#nav a.active:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -0.6em;
+    left: 50%;
+    margin-left: -0.75em;
+    border-left: solid 0.75em transparent;
+    border-right: solid 0.75em transparent;
+    border-top: solid 0.6em #282828;
+}
+
 .light-pattern {
-    background: #FFB5AD;
+    background: white;
     color: #7F3730;
 }
 
 .dark-pattern {
-    background: #7F3730;
-    color: #FFB5AD;
+    background: #FFB5AD;
+    color: #7F3730;
 }
 
 .header {
-    padding:170px 30px 80px;
-    background-color: #7F3730;
+    padding:100px 30px 100px;
+    background-color: white;
     color: #FFB5AD;
 }
 
 .logo {
-    margin-top: 50px;
+    height: 300px;
 }
 
 .site-description {
@@ -127,6 +164,8 @@ ul {
 .footer {
     padding: 12px 0;
     font-size: 1.3rem;
+    background: #7F3730;
+    color: white;
 }
 
 @media (width: 500px) {
