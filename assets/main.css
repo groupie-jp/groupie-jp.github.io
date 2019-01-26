@@ -44,16 +44,16 @@ ul {
     padding:20px;
     border-radius: 4px;
 
-    background-color: #FF6F61;
-    color: #263056;
+    background-color: #fdeff2;
+    color: #FF6F61;
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 2rem;
 }
 
 .button:hover {
-    background-color: #fdeff2;
-    color: #FF6F61;
+    background-color: #FF6F61;
+    color: #fdeff2;
     opacity: 0.9;
 }
 
