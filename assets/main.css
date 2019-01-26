@@ -8,8 +8,8 @@ html {
 }
 
 body {
-    background: #fdeff2;
-    color: #263056;
+    background: #263056;
+    color: #fdeff2;
     text-align: center;
     font-size: 1.6rem;
     font-family: Dosis, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
@@ -23,6 +23,10 @@ ul {
     padding:170px 30px 80px;
 }
 
+.logo {
+    margin-top: 50px;
+}
+
 .site-title {
     margin:50px 0 40px;
     font-size: 7.6rem;
@@ -31,7 +35,7 @@ ul {
 
 .site-description {
     margin-bottom: 50px;
-    color: #263056;
+    color: #fdeff2;
     font-size: 2rem;
 }
 
@@ -41,7 +45,7 @@ ul {
     border-radius: 4px;
 
     background-color: #FF6F61;
-    color: #fdeff2;
+    color: #263056;
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 2rem;
@@ -58,9 +62,9 @@ ul {
 }
 
 .about {
-    padding: 80px 30px;
-    background-color: #263056;
-    color: #fdeff2;
+    padding: 30px 30px;
+    background-color: #fdeff2;
+    color: #263056;
 }
 
 .heading {
@@ -82,109 +86,24 @@ ul {
 }
 
 .about .about-text a{
-    color: #fdeff2;
+    color: #263056;
 }
 
-.skills {
-    padding: 80px 0;
-    background-color: #fdeff2;
-    color: #333333;
-}
-
-.skills-wrapper {
-    display: table;
-    width: 80%;
-    margin: 50px auto 30px;
-    table-layout: fixed;
-}
-
-.skill-box {
-    display: table-cell;
-}
-
-.skill-icon {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 30px;
-    border: 4px solid;
-    border-radius: 50%;
-    color: #FF6F61;
-    font-size: 8rem;
-    line-height: 142px;
-}
-
-.skill-title {
-    margin: 0 20px 20px;
-    font-size: 2rem;
-}
-
-.skill-text {
-    margin: 0 20px;
-    line-height: 2;
-}
-
-.works {
-    padding: 80px 0;
+.link {
+    padding: 30px 30px;
     background-color: #263056;
     color: #fdeff2;
 }
 
-.works-wrapper {
-    display: table;
-    width: 80%;
-    margin: 60px auto;
-    table-layout: fixed;
-}
-
-.work-box {
-    display: table-cell;
-}
-
-.work-image {
-    display: block;
-    width: 100%;
-}
-
-.work-sub-header{
-    font-size: 2rem;
-}
-
-.work-text {
-    vertical-align: middle;
-    line-height: 2;
-}
-
-.work-text .button {
-    width: 30%;
-    margin-top: 20px;
-    padding: 3px;
-}
-
-.button-ghost {
-    border: 1px solid #fff;
-    background-color: rgba(255, 255, 255, 0.15);
-}
-
-.mind {
-    width: 80%;
-    margin: auto;
-}
-
-.mind-title {
-    margin: 20px auto;
-    line-height: 2;
-    font-size: 2rem;
-}
-
-.mind-text {
-    margin: 20px auto;
+.link-box {
+    margin: 40px 100px;
     line-height: 2;
 }
 
 .contact {
     padding: 80px 30px;
-    background-color: #263056;
-    color: #fdeff2;
+    background-color: #fdeff2;
+    color: #263056;
 }
 
 .contact-wrapper {
